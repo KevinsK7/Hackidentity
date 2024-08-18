@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Identidades Ficticias - Olivia</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #0231BC;
+            font-family: 'Courier New', Courier, monospace;
+            overflow: hidden;
+        }
+::-webkit-scrollbar {
+    display: none;
+}
+        .container {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            background-image: url('https://png.pngtree.com/background/20220731/original/pngtree-black-and-white-travel-city-map-picture-image_1904548.jpg');
+            background-size: cover;
+            background-blend-mode: multiply;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .slider {
+            display: flex;
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+            -webkit-overflow-scrolling: touch;
+        }
+        .profile-card {
+            flex: 0 0 auto;
+            width: 500px;
+            height: 300px;
+            background-color: rgba(0, 0, 0, 0.9);
+            border-radius:20px;
+            border: 1px solid #0231BC;
+            box-shadow: 0 0 10px #0231BC;
+            margin: 0 10px;
+            scroll-snap-align: start;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .profile-card img {
+            width: 160px;
+            height: 160px;
+filter: invert(1) hue-rotate(180deg);
+            margin-right: 15px;
+        }
+        .profile-card p {
+            margin: 10px 0;
+            text-align: left;
+filter: invert(1) hue-rotate(180deg);
+            line-height: 1.4;
+        }
+    </style>
+</head>
+<body>
+<H1> HACK IDENTITY - Olivia</H1>
+<H4> Memory Warrior</H4>
+
+    <div class="container">
+
+        <div class="slider">
+            <div class="profile-card">
+                <img src="https://i.pinimg.com/736x/2c/fe/e0/2cfee0a1bad68fa43f513d1c3d57bb36.jpg" alt="Hombre">
+                <div>
+                    <p><strong>Nombre:</strong> John Carter</p>
+                    <p><strong>Edad:</strong> 45 años</p>
+                    <p><strong>Profesión:</strong> Guardián de Prisión</p>
+                    <p><strong>Datos Relevantes:</strong> Ha trabajado en la Prisión Wester durante 20 años. Conocido por su severidad, pero ha mostrado debilidad en sobornos recientes.</p>
+                </div>
+            </div>
+            <div class="profile-card">
+                <img src="https://i.pinimg.com/736x/4d/e7/0c/4de70c0bb1f214badc4d638e0071eb02.jpg" alt="Mujer">
+                <div>
+                    <p><strong>Nombre:</strong> Emily Jones</p>
+                    <p><strong>Edad:</strong> 32 años</p>
+                    <p><strong>Profesión:</strong> Bibliotecaria</p>
+                    <p><strong>Datos Relevantes:</strong> Estudiosa del "Proyecto Neural". En su tiempo libre, investiga documentos antiguos.</p>
+                </div>
+            </div>
+            <div class="profile-card">
+                <img src="https://i.pinimg.com/736x/2c/fe/e0/2cfee0a1bad68fa43f513d1c3d57bb36.jpg" alt="Hombre">
+                <div>
+                    <p><strong>Nombre:</strong> Dr. Marcus Levin</p>
+                    <p><strong>Edad:</strong> 50 años</p>
+                    <p><strong>Profesión:</strong> Científico Jefe</p>
+                    <p><strong>Datos Relevantes:</strong> Encargado de la manipulación de memoria en la Corporación Neural. Mantiene un perfil bajo, pero se rumorea que está involucrado en actividades ilegales.</p>
+                </div>
+            </div>
+            <div class="profile-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_mpzI5GHaKD3os68XHqIn3C71IVq63HCYIdpWjFrTyUkzwiwppUZ6NOP_lwFBtootNzc&usqp=CAU" alt="Mujer">
+                <div>
+                    <p><strong>Nombre:</strong> Alicia Thompson</p>
+                    <p><strong>Edad:</strong> 28 años</p>
+                    <p><strong>Profesión:</strong> Barista</p>
+                    <p><strong>Datos Relevantes:</strong> Trabaja en el Café Codex, frecuentado por hackers. Se sospecha que Alicia es una hacker encubierta, conocida en la red como "Shade".</p>
+                </div>
+            </div>
+            <div class="profile-card">
+                <img src="https://i.pinimg.com/236x/0d/f0/56/0df056c945049b2487a551b09eaed2da.jpg" alt="Mujer">
+                <div>
+                    <p><strong>Nombre:</strong> Dr. Sarah Sinclair</p>
+                    <p><strong>Edad:</strong> 48 años</p>
+                    <p><strong>Profesión:</strong> Investigadora Principal</p>
+                    <p><strong>Datos Relevantes:</strong> Lidera experimentos avanzados en neurociencia en el Laboratorio Sinclair. Desarrolló tecnología clave para la manipulación de la mente.</p>
+                </div>
+            </div>
+            <div class="profile-card">
+                <img src="https://i.pinimg.com/736x/2c/fe/e0/2cfee0a1bad68fa43f513d1c3d57bb36.jpg" alt="Hombre">
+                <div>
+                    <p><strong>Nombre:</strong> Nathan Black</p>
+                    <p><strong>Edad:</strong> 39 años</p>
+                    <p><strong>Profesión:</strong> Ex-Agente de Seguridad</p>
+                    <p><strong>Datos Relevantes:</strong> Conexiones con movimientos sospechosos en el Centro Comercial Omega. Se rumorea que trabaja ahora como consultor de seguridad privado.</p>
+                </div>
+            </div>
+            <div class="profile-card">
+                <img src="https://i.pinimg.com/736x/4d/e7/0c/4de70c0bb1f214badc4d638e0071eb02.jpg" alt="Mujer">
+                <div>
+                    <p><strong>Nombre:</strong> Clara Harper</p>
+                    <p><strong>Edad:</strong> 36 años</p>
+                    <p><strong>Profesión:</strong> Médico Forense</p>
+                    <p><strong>Datos Relevantes:</strong> Responsable de los documentos médicos alterados en el Hospital Wester. Tiene un interés particular en casos de experimentación humana.</p>
+                </div>
+            </div>
+            <!-- Sección de perfiles adicionales -->
+            <div class="profile-card">
+                <img src="https://i.pinimg.com/736x/2c/fe/e0/2cfee0a1bad68fa43f513d1c3d57bb36.jpg" alt="Hombre">
+                <div>
+                    <p><strong>Nombre:</strong> David Parker</p>
+                    <p><strong>Edad:</strong> 42 años</p>
+                    <p><strong>Profesión:</strong> Banquero</p>
+                    <p><strong>Datos Relevantes:</strong> Involucrado en transacciones sospechosas vinculadas al prisionero 62. Tiene una red de contactos influyentes en Wester.</p>
+                </div>
+            </div>
+            <div class="profile-card">
+                <img src="https://i.pinimg.com/736x/4d/e7/0c/4de70c0bb1f214badc4d638e0071eb02.jpg" alt="Mujer">
+                <div>
+                    <p><strong>Nombre:</strong> Laura Bennett</p>
+                    <p><strong>Edad:</strong> 30 años</p>
+                    <p><strong>Profesión:</strong> Abogada</p>
+                    <p><strong>Datos Relevantes:</strong> Especialista en contratos corporativos, especialmente los relacionados con la Corporación Neural. Ha defendido varios casos de manipulación de memoria.</p>
+                </div>
+            </div>
+            <div class="profile-card">
+                <img src="https://i.pinimg.com/736x/2c/fe/e0/2cfee0a1bad68fa43f513d1c3d57bb36.jpg" alt="Hombre">
+                <div>
+                    <p><strong>Nombre:</strong> Victor Shaw</p>
+                    <p><strong>Edad:</strong> 37 años</p>
+                    <p><strong>Profesión:</strong> Investigador Privado</p>
+                    <p><strong>Datos Relevantes:</strong> Contratado por partes desconocidas para rastrear actividades en el Parque Wester. Su oficina se encuentra en el Rascacielos Wester.</p>
+                </div>
+            </div>
+            <div class="profile-card">
+                <img src="https://i.pinimg.com/736x/4d/e7/0c/4de70c0bb1f214badc4d638e0071eb02.jpg" alt="Mujer">
+                <div>
+                    <p><strong>Nombre:</strong> Evelyn Clarke</p>
+                    <p><strong>Edad:</strong> 34 años</p>
+                    <p><strong>Profesión:</strong> Agente de Inmobiliaria</p>
+                    <p><strong>Datos Relevantes:</strong> Facilitó la compra de la Residencia Eclipse. Conocida por sus clientes de alto perfil y su discreción.</p>
+                </div>
+            </div>
+            <div class="profile-card">
+                <img src="https://i.pinimg.com/736x/2c/fe/e0/2cfee0a1bad68fa43f513d1c3d57bb36.jpg" alt="Hombre">
+                <div>
+                    <p><strong>Nombre:</strong> Richard Evans</p>
+                    <p><strong>Edad:</strong> 46 años</p>
+                    <p><strong>Profesión:</strong> Ingeniero Mecánico</p>
+                    <p><strong>Datos Relevantes:</strong> Trabaja en el Garaje Omega. Sus habilidades fueron clave en la modificación de vehículos utilizados en la fuga.</p>
+                </div>
+            </div>
+            <div class="profile-card">
+                <img src="https://i.pinimg.com/736x/4d/e7/0c/4de70c0bb1f214badc4d638e0071eb02.jpg" alt="Mujer">
+                <div>
+                    <p><strong>Nombre:</strong> Monica Reed</p>
+                    <p><strong>Edad:</strong> 29 años</p>
+                    <p><strong>Profesión:</strong> Periodista</p>
+                    <p><strong>Datos Relevantes:</strong> Investigadora freelance conocida por exponer corrupción en Wester. Actualmente trabaja en una historia sobre el Proyecto Neural.</p>
+                </div>
+            </div>
+            <!-- Más perfiles para añadir variedad -->
+            <div class="profile-card">
+                <img src="https://i.pinimg.com/736x/2c/fe/e0/2cfee0a1bad68fa43f513d1c3d57bb36.jpg" alt="Hombre">
+                <div>
+                    <p><strong>Nombre:</strong> Samuel Ward</p>
+                    <p><strong>Edad:</strong> 40 años</p>
+                    <p><strong>Profesión:</strong> Analista de Datos</p>
+                    <p><strong>Datos Relevantes:</strong> Trabaja en las Oficinas Wester, monitoreando el flujo de información digital. Tiene acceso a información clasificada.</p>
+                </div>
+            </div>
+            <div class="profile-card">
+                <img src="https://i.pinimg.com/736x/b7/02/d8/b702d858dd42583024c446ac06a9df7e.jpg" alt="Mujer">
+                <div>
+                    <p><strong>Nombre:</strong> Nora Watson</p>
+                    <p><strong>Edad:</strong> 33 años</p>
+                    <p><strong>Profesión:</strong> Fotógrafa</p>
+                    <p><strong>Datos Relevantes:</strong> Capturó imágenes clave en la Estación Central. Conocida por su habilidad para estar en el lugar correcto en el momento correcto.</p>
+                </div>
+            </div>
+            <div class="profile-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA43IlNacPx-95x2-vN57408sypvTUoIEvYAyJL724JufL7XMKO4WHRjSMe52giW9lZtM&usqp=CAU" alt="Hombre">
+                <div>
+                    <p><strong>Nombre:</strong> Henry Scott</p>
+                    <p><strong>Edad:</strong> 38 años</p>
+                    <p><strong>Profesión:</strong> Cirujano Plástico</p>
+                    <p><strong>Datos Relevantes:</strong> Ayudó a alterar la apariencia de varios individuos involucrados en el Proyecto Neural. Su consultorio es el más reservado de Wester.</p>
+                </div>
+            </div>
+            <div class="profile-card">
+                <img src="https://i.pinimg.com/564x/04/70/85/047085602d6a4febc129635a7a6e2b85.jpg" alt="Mujer">
+                <div>
+                    <p><strong>Nombre:</strong> Isabella Turner</p>
+                    <p><strong>Edad:</strong> 31 años</p>
+                    <p><strong>Profesión:</strong> Hacker Ética</p>
+                    <p><strong>Datos Relevantes:</strong> Colabora con la policía para rastrear actividades ilícitas en el Puente Wester. Se cree que tiene conexiones con el submundo criminal.</p>
+                </div>
+            </div>
+            <!-- Más perfiles para añadir diversidad -->
+            <div class="profile-card">
+                <img src="https://i.pinimg.com/736x/2c/fe/e0/2cfee0a1bad68fa43f513d1c3d57bb36.jpg" alt="Hombre">
+                <div>
+                    <p><strong>Nombre:</strong> Peter Collins</p>
+                    <p><strong>Edad:</strong> 41 años</p>
+                    <p><strong>Profesión:</strong> Contratista</p>
+                    <p><strong>Datos Relevantes:</strong> Participó en la construcción del Almacén Omega. Se rumorea que utilizó su posición para encubrir operaciones ilegales.</p>
+                </div>
+            </div>
+            <div class="profile-card">
+                <img src="https://i.pinimg.com/736x/4d/e7/0c/4de70c0bb1f214badc4d638e0071eb02.jpg" alt="Mujer">
+                <div>
+                    <p><strong>Nombre:</strong> Sophia Gray</p>
+                    <p><strong>Edad:</strong> 27 años</p>
+                    <p><strong>Profesión:</strong> Archivista</p>
+                    <p><strong>Datos Relevantes:</strong> Responsable de la organización de documentos antiguos en la Biblioteca Wester. Tiene acceso a información crucial sobre el Proyecto Neural.</p>
+                </div>
+            </div>
+            <div class="profile-card">
+                <img src="https://i.pinimg.com/736x/2c/fe/e0/2cfee0a1bad68fa43f513d1c3d57bb36.jpg" alt="Hombre">
+                <div>
+                    <p><strong>Nombre:</strong> Michael Brown</p>
+                    <p><strong>Edad:</strong> 35 años</p>
+                    <p><strong>Profesión:</strong> Piloto</p>
+                    <p><strong>Datos Relevantes:</strong> Involucrado en el transporte de individuos clave fuera de Wester. Conocido por su destreza en vuelos de emergencia.</p>
+                </div>
+            </div>
+            <div class="profile-card">
+                <img src="https://i.pinimg.com/736x/4d/e7/0c/4de70c0bb1f214badc4d638e0071eb02.jpg" alt="Mujer">
+                <div>
+                    <p><strong>Nombre:</strong> Olivia West</p>
+                    <p><strong>Edad:</strong> 29 años</p>
+                    <p><strong>Profesión:</strong> Experta en Seguridad Cibernética</p>
+                    <p><strong>Datos Relevantes:</strong> Ha trabajado con la Corporación Neural en el refuerzo de sistemas de seguridad. Se sospecha que tiene conocimientos sobre vulnerabilidades que podrían ser explotadas.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
